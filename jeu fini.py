@@ -93,7 +93,7 @@ class Snake:
         eye1 = pygame.Rect(head_x * CELL_SIZE + 8, head_y * CELL_SIZE + 8, 5, 5)
         eye2 = pygame.Rect(head_x * CELL_SIZE + 17, head_y * CELL_SIZE + 8, 5, 5)
         pygame.draw.rect(surface, (0, 0, 0), eye1)
-        pygame.draw.rect(surface, (0, 0, 0), eye2)-
+        pygame.draw.rect(surface, (0, 0, 0), eye2)
 
 
 
@@ -227,3 +227,4 @@ def main():
 
 # Run the game
 main()
+
