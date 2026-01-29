@@ -131,7 +131,6 @@ def display_score(surface, score):
 
 
 def game_over_screen(surface, score):
-    draw_background(surface)
     game_over_text = font.render("GAME OVER", True, SCORE_COLOR)
     score_text = font.render(f"Score: {score}", True, SCORE_COLOR)
     restart_text = font.render("Press Space to Restart", True, SCORE_COLOR)
@@ -227,4 +226,5 @@ def main():
 
 # Run the game
 main()
+
 
